@@ -41,12 +41,15 @@ $Blanco:hsl(0, 0%, 100%);
         height: 100vh;
         background-size: cover;
         main{
+            .Logo{
+                position: relative;
+                top: 40px;
+                margin-left: 1rem;
+            } 
             nav{
-                .Logo{
-                    position: relative;
-                    top: 40px;
-                    margin-left: 1rem;
-                } 
+                .hamburger{
+                    display: none;
+                }
                 ul{
                     display: flex;
                     flex-direction: row;

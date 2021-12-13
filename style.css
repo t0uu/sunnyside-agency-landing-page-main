@@ -29,10 +29,13 @@
     height: 100vh;
     background-size: cover;
   }
-  header main nav .Logo {
+  header main .Logo {
     position: relative;
     top: 40px;
     margin-left: 1rem;
+  }
+  header main nav .hamburger {
+    display: none;
   }
   header main nav ul {
     display: -webkit-box;
